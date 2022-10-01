@@ -16,8 +16,7 @@ def myFunDiv(v,k):
 	return div
 
 # Calling funtions
-print(" \n Enter 1 for Sum \n Enter 2 for Subtraction \n Enter 3 for Division \n Enter 4 for Multiplication")
-userInput = int(input())
+userInput = int(input(" \n Enter 1 for Sum \n Enter 2 for Subtraction \n Enter 3 for Division \n Enter 4 for Multiplication"))
 
 if(userInput == 1):
 	var1 = int(input("Enter 1st number"))
