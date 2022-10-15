@@ -1,5 +1,5 @@
 # taking inputs
-x = float(input("Enter a number"))
+x = float(input("Enter a  \"number\""))
 y= float(input("Enter another number"))
 
 # calculating squate roots
