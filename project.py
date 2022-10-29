@@ -5,4 +5,23 @@
 #•	Change the output to uppercase (required acronym).
 #•	You have to generate acronyms for all given strings.
 
+#input = {"multiple string", "multiple strings", "Multiple words"} wrong inpot
+#input2 = {"one","word","String"} currect input
+i = input("Enter")
+b =i
+b=b.strip()
+count = 0
+li = list(b.split(" "))
 
+j  = 0
+while(j<len(b)):
+	if(b[j] == " "):
+		count+=1
+	j+=1	
+
+realCount = (count+1)
+main = " "
+for v in range(realCount):
+	main = main+li[v][0]
+
+print(main)
