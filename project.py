@@ -7,7 +7,7 @@
 
 #input = {"multiple string", "multiple strings", "Multiple words"} wrong inpot
 #input2 = {"one","word","String"} currect input
-i = input("Enter")
+i = input("Enter the sentence")
 b =i
 b=b.strip()
 count = 0
@@ -24,4 +24,4 @@ main = " "
 for v in range(realCount):
 	main = main+li[v][0]
 
-print(main)
+print("acronym is:",main.upper())
