@@ -1,6 +1,10 @@
+# taking input
 I = input()
+
+# checkin if len greater than 3
 if len(I)>3:
-	k = I+"ing"
-	print(k)
-else:
-	print(I)
+	I = I+"ing"
+
+#printing
+print(I)
+	
