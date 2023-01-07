@@ -13,5 +13,3 @@ for i in range(1,7):
 	
 my_screen = turtle.Screen()
 
-my_screen.listen()
-
